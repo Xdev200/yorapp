@@ -8,7 +8,7 @@ const Limitedoffer = () => {
                 <img src='/images/dropdown.svg' alt='dropdown' className={styles.dropdown}/>
             </div>
             <div className={styles.card_content}>
-                <h3 className={styles.offer_name}>Buy 2 get One free</h3>
+                <span className={styles.offer_name}>Buy 2 get One free</span>
                 <p className={styles.offer_description}>One free coffee & one pizza @150</p>
             </div>
             <div className={styles.card_footer}>

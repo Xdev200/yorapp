@@ -1,5 +1,5 @@
 .limited_offers{
-    width: 88%;
+    width: 84%;
     display:grid;
     grid-area:limited-offers;
     grid-template-areas: 
@@ -8,14 +8,14 @@
     "card-footer";
     margin-top:10%;
     margin-left:5%;
-    /* box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1); */
-    /* padding: 1rem ; */
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    padding:0.5rem;
 }
 .card_top{
     display: grid;
     grid-area:card-top;
     grid-template-areas:
-    "time-left time-left   time-left   time-left   dropdown ";
+    "time-left time-left time-left time-left time-left time-left time-left time-left time-left time-left time-left time-left time-left time-left time-left time-left dropdown ";
     align-items: center;
     /* justify-content: space-between; */
 }
@@ -38,15 +38,15 @@
     font-size:1.5rem;
 }
 
-.offer-description{
-    font-size:1.125rem
+.offer_description{
+    font-size:1.125rem;
 }
 
 .card_footer{
     display: grid;
     grid-area:card-footer;
     grid-template-areas: 
-    "store-logo-circle store-tags  wishlist wishlist  options options options";
+    "store-logo-circle store-tags store-tags store-tags store-tags store-tags  wishlist wishlist wishlist wishlist  options options";
     align-items: center;
 }
 
@@ -71,4 +71,9 @@
 /*common styles */
 .time_left,.offer_name,.offer_description.store_tags{
     font-family: 'Roboto', sans-serif;
+}
+
+
+.card_content,.card_footer{
+    /* padding:0.5rem; */
 }

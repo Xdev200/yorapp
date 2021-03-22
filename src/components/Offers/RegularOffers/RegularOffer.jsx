@@ -9,7 +9,7 @@ const RegularOffer = () => {
                     <span className={styles.plan_name}>PLATINUM</span>
                 </div>
                 <div className={styles.card_content}>
-                    <h3 className={styles.plan_type}>15% OFF</h3>
+                    <span className={styles.plan_type}>15% OFF</span>
                     <img src='/images/dropdown.svg' alt='dropdown' className={styles.dropdown}/>
                     <p className={styles.offer_description}>One free coffee & one pizza @150</p>
                 </div>

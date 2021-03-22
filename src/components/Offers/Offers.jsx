@@ -10,6 +10,8 @@ const Offers = () => {
             <HeadingText text="Live Offers"/>
             <RegularOffers/>
             <LimitedOffers/>
+            <RegularOffers/>
+            <LimitedOffers/>
             
         </div>
     )
