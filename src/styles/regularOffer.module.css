@@ -8,8 +8,7 @@
     "card-footer";
     margin-left:5%;
     margin-top:5%;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
-    /* padding:0 0.2rem 0.5rem 0.2rem; */
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1)
     
 }
 
@@ -61,6 +60,7 @@
     display: grid;
     grid-area:offer-description;
     font-size:1.125rem;
+    padding-top:1rem;
 }
 
 .card_footer{

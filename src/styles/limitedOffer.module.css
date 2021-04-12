@@ -24,6 +24,7 @@
     grid-area:time-left ;
     font-size: 0.875rem;
     color:#ff0000;
+    padding:1rem 0;
 }
 .dropdown{
     grid-area:dropdown;
@@ -36,10 +37,12 @@
 
 .offer_name{
     font-size:1.5rem;
+   
 }
 
 .offer_description{
     font-size:1.125rem;
+    padding:1rem 0;
 }
 
 .card_footer{
