@@ -1,20 +1,21 @@
 import './styles/App.css';
-import Header from  './components/Header/Header'
-import Banner from './components/Banner/Banner'
-import Search from './components/Search/Search'
-import Yostd from './components/Yostd/Yostd'
-import Offers from './components/Offers/Offers'
-import Login from './components/Login/Login'
-
+import {Home} from './Pages/index'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
+import routes from "./routing/routes";
 const App=()=> {
   return (
     <div className="app">
-      <Header/>
-      <Banner/>
-      <Search/>
-      <Yostd/>
-      <Offers/>
-      {/* <Login/> */}
+   
+     <Routes>
+     <Home/>
+        {routes.map((route, key) => (
+          <Route path={route.path} element={<route.component />} key={key} />
+        ))}
+      </Routes>
     </div>
   );
 }
