@@ -1,6 +1,6 @@
 import React from "react";
 import InfiniteCarousel from "react-leaf-carousel";
-import styles from './yorstdSlider.module.css'
+import styles from '../../styles/yorstdSlider.module.css'
 const Yostdslider = () => {
   return (
     <>

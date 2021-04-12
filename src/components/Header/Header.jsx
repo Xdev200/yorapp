@@ -2,7 +2,7 @@ import React from 'react'
 import Hamburger from '../Hamburger/Hamburger'
 import Logo from '../Logo/Logo'
 import LinkText from '../LinkText/LinkText'
-import styles from './header.module.css'
+import styles from '../../styles/header.module.css'
 
 const Header = () => {
     return (

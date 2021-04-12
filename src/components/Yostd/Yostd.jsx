@@ -1,7 +1,7 @@
 import React from 'react'
 import HeadingText from '../HeadingText/HeadingText'
 import Yostdslider from '../YostdSlider/YostdSlider'
-import styles from './yostd.module.css'
+import styles from '../../styles/yostd.module.css'
 
 const Yostd = () => {
     return (

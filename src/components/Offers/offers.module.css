@@ -1,7 +1,0 @@
-.offers{
-    grid-area:offers;
-    grid-template-areas: 
-    "heading-text"
-    "regular-offers"
-    "limited-offers";
-}

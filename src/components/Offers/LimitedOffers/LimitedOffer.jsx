@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './limitedOffer.module.css'
+import styles from '../../../styles/limitedOffer.module.css'
 const Limitedoffer = () => {
     return (
         <div className={styles.limited_offers}>

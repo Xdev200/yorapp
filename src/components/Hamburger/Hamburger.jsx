@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './hamburger.module.css'
+import styles from '../../styles/hamburger.module.css'
 
 const Hamburger = () => {
     return (

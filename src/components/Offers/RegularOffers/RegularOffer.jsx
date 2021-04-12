@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './regularOffer.module.css'
+import styles from '../../../styles/regularOffer.module.css'
 const RegularOffer = () => {
     return (
         <div className={styles.regular_offers}>

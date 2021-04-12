@@ -1,8 +1,0 @@
-.header{
-    display:grid;
-    grid-area:header;
-    grid-template-areas:"hamburger logo logo logo logo logo logo logo logo logo logo linktext";
-    align-items: center;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
-    
-}
