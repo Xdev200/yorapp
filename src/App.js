@@ -1,7 +1,6 @@
 import './styles/App.css';
 import {Home} from './Pages/index'
 import {
-  BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";

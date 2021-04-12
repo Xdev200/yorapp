@@ -1,9 +1,9 @@
-import { HOME,LOGIN} from "./paths";
-import {Home,LoginPage} from '../Pages/index'
+import { HOME,LOGIN,OTP,SIGNUP} from "./paths";
+import {Home,LoginPage,OtpPage,SignUpPage} from '../Pages/index'
 
 const HOME_ONE = {
   component: Home,
-  path: HOME,
+  path: HOME
 };
 
 const LOGIN_TWO ={
@@ -11,6 +11,17 @@ const LOGIN_TWO ={
   path:LOGIN
 }
 
-const routes = [HOME_ONE,LOGIN_TWO];
+const OTP_THREE ={
+  component:OtpPage,
+  path:OTP
+}
+
+const SIGNUP_FOUR ={
+  component:SignUpPage,
+  path:SIGNUP
+}
+
+
+const routes = [HOME_ONE,LOGIN_TWO,OTP_THREE,SIGNUP_FOUR];
 
 export default routes;

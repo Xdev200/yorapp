@@ -1,23 +1,26 @@
-.login {
+.sign_up {
     display: grid;
     align-items: center;
     justify-items: center;
-
-    margin-top: 40%;
+    margin-top: 10%;
 }
 
-.login>img {
+.sign_up>img {
     width: 60%;
-    margin-bottom: 30%;
+    margin-bottom: 15%;
 }
 
-.login>input {
+.sign_up>input {
     width: 16.25rem;
     margin-bottom: 10%;
     padding: 1rem;
 }
-
-.login>span>a {
+.sign_up>span{
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top:5%;
+}
+.sign_up>span>a {
     color: #009DFF;
     font-weight: bold;
 }

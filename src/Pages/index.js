@@ -1,2 +1,4 @@
-export {Home} from './Home/Home'
-export {LoginPage} from './Login/LoginPage'
+export {Home} from './Home'
+export {LoginPage} from './LoginPage'
+export {OtpPage} from './OtpPage'
+export {SignUpPage} from './SignUpPage'
