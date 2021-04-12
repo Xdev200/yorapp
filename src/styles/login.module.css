@@ -1,0 +1,33 @@
+.login {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+  
+    margin-top:40%;
+}
+
+.login>img {
+    width: 60%;
+    margin-bottom: 30%;
+}
+.login>input{
+    width: 260px;
+    margin-bottom: 10%;
+    padding:1rem;
+}
+
+.login>button {
+    width: 300px;
+    padding: 0.5rem;
+    background: #009DFF;
+    border-radius: 4px;
+    border-style: none;
+    color: #ffffff;
+    font-family: roboto;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+.login>span>a{
+    color:#009DFF;
+    font-weight: bold;
+}

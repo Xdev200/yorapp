@@ -1,0 +1,22 @@
+.yostd{
+    grid-area:yostd;
+    grid-template-areas:
+    "heading";
+ 
+    /* margin-left:5%; */
+
+}
+
+.heading{
+    grid-area:heading;
+}
+
+
+/* .yostd>.heading>h3{
+    font-family: 'Nunito', sans-serif;
+} */
+
+.yostd-slider{
+    grid-area:yosd-slider;
+  
+}

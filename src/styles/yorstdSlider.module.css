@@ -1,0 +1,10 @@
+/*https://reactjsexample.com/react-simple-infinite-carousel-with-lazy-loading-and-responsive-support/*/
+
+.yostdslider{
+
+}
+
+.yostdslider>img{
+    width: 5rem;
+    padding:0.5rem;
+}
